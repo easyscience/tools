@@ -5,7 +5,7 @@ number_of_basic_labels=$((${#basic_github_labels[@]}-1))
 
 # Defining new scope labels
 scope_labels_names=("bug" "documentation" "enhancement" "maintenance" "significant" "⚠️ label needed")
-scope_labels_descriptions=("Bug report or fix (major.minor.PATCH)" "Documentation only changes (major.minor.patch-EXTENSION)" "Adds/improves features (major.MINOR.patch)" "Code/tooling cleanup, no feature or bugfix (major.minor.PATCH)" "Breaking or major changes (MAJOR.minor.patch)" "Automatically added to issues and PRs without a [scope] label")
+scope_labels_descriptions=("Bug report or fix (major.minor.PATCH)" "Documentation only changes (major.minor.patch.POST)" "Adds/improves features (major.MINOR.patch)" "Code/tooling cleanup, no feature or bugfix (major.minor.PATCH)" "Breaking or major changes (MAJOR.minor.patch)" "Automatically added to issues and PRs without a [scope] label")
 number_of_scope_labels=$((${#scope_labels_names[@]}-1))
 
 # Defining new maintainer labels
